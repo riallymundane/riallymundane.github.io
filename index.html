@@ -7,24 +7,31 @@
 </head>
 <style>
     body,html{
-        height: 100vh;
         display: flex;
+        top: -2px;
         margin: 0;
         overflow: hidden;
+        box-sizing: border-box;
         padding: 0;
-        width: 100vw;
+        height: calc(100vh - 4px);
+        width: calc(100vw - 2px);
+        border: 1px solid rebeccapurple;
     }
     #player{
-        height: 100vh;
-        width: 80vw;
+        box-sizing: border-box;
+        height: calc(100vh - 2px);
+        width: calc(80vw - 2px);
+        border: 1px solid rebeccapurple;
     }
     #chat{
-        height: 100vh;
-        width: 20vw;
+        box-sizing: border-box;
+        height: calc(100vh - 2px);
+        width: calc(20vw - 2px);
+        border: 1px solid rebeccapurple;
     }
 </style>
 <body>
-<iframe id="player" src="https://player.twitch.tv/?channel=riallymundane&amp;parent=ria.codes" frameborder="0"></iframe>
-<iframe id="chat" src="https://www.twitch.tv/embed/riallymundane/chat?parent=ria.codes" frameborder="0"></iframe>
+<iframe id="player" src="https://player.twitch.tv/?channel=riallymundane&amp;parent=ria.codes"></iframe>
+<iframe id="chat" src="https://www.twitch.tv/embed/riallymundane/chat?parent=ria.codes"></iframe>
 </body>
 </html>
