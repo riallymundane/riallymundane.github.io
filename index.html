@@ -2,9 +2,29 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ria Codes @ riallymundane</title>
 </head>
+<style>
+    body,html{
+        height: 100vh;
+        display: flex;
+        margin: 0;
+        overflow: hidden;
+        padding: 0;
+        width: 100vw;
+    }
+    #player{
+        height: 100vh;
+        width: 80vw;
+    }
+    #chat{
+        height: 100vh;
+        width: 20vw;
+    }
+</style>
 <body>
-<iframe src="https://embed.twitch.tv?autoplay=true&amp;channel=riallymundane&amp;height=480&amp;layout=video-with-chat&amp;migration=true&amp;parent=naw.io&amp;referrer=https%3A%2F%2Fnaw.io%2Fria.html&amp;width=854" allowfullscreen="" scrolling="no" frameborder="0" allow="autoplay; fullscreen" title="Twitch" sandbox="allow-modals allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox" width="854" height="480" style="width: 100vw; height: 100vh;"></iframe>
+<iframe id="player" src="https://player.twitch.tv/?channel=riallymundane&amp;parent=ria.codes" frameborder="0"></iframe>
+<iframe id="chat" src="https://www.twitch.tv/embed/riallymundane/chat?parent=ria.codes" frameborder="0"></iframe>
 </body>
 </html>
