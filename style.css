@@ -1,6 +1,5 @@
 body, html {
     display: flex;
-    flex-wrap: wrap;
     top: -2px;
     margin: 0;
     overflow: hidden;
@@ -24,12 +23,15 @@ body, html {
 }
 
 @media screen and (max-width: 1130px) {
+    body {
+        flex-wrap: wrap;
+    }
     #player {
-        height: calc(60vh - 2px);
+        height: calc(40vh - 2px);
         width: calc(100vw - 2px);
     }
     #chat {
-        height: calc(40vh - 2px);
+        height: calc(60vh - 2px);
         width: calc(100vw - 2px);
     }
 }
