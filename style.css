@@ -23,8 +23,9 @@ body, html {
 }
 
 @media screen and (max-width: 1130px) {
-    body {
+    body, html {
         flex-wrap: wrap;
+        overflow: auto;
     }
     #player {
         height: calc(40vh - 2px);
